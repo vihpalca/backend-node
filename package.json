@@ -5,7 +5,8 @@
   "main": "src/index.js",
   "scripts": {
     "dev": "nodemon",
-    "production": "pm2 start src/loader.js"
+    "production": "pm2 start src/loader.js",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
