@@ -15,5 +15,5 @@ server.use(bodyParser.json())
 server.use('/api', rota)
 
 server.listen(port, () => {
-  console.log(`running on ${port}`)
+  console.log(`running on ${port} =]`)
 })
